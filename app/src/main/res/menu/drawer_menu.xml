@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_icon"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_my_doctors"
+            android:icon="@drawable/ic_nav_icon"
+            android:title="@string/my_doctors" />
+
+        <item
+            android:id="@+id/nav_past_appointments"
+            android:icon="@drawable/ic_nav_icon"
+            android:title="@string/past_appointments"/>
+
+        <item
+            android:id="@+id/nav_medical_records"
+            android:icon="@drawable/ic_nav_icon"
+            android:title="@string/medical_records"/>
+
+        <item
+            android:id="@+id/nav_payment_history"
+            android:icon="@drawable/ic_nav_icon"
+            android:title="@string/payment_history"/>
+
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_nav_icon"
+            android:title="@string/edit_profile"/>
+
+    </group>
+
+</menu>

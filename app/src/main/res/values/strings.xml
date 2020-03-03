@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Doctello</string>.
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="my_doctors">My Doctors</string>
+    <string name="past_appointments">Past appointments</string>
+    <string name="medical_records">Medical Records</string>
+    <string name="payment_history">Payment History</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string-array name="gender_drop_down">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_by_health_concern">Search by health concern</string>
+    <string name="find_doctors_in_top_hospitals">Find doctors in top hospitals</string>
+    <string name="call">Call</string>
+    <string name="hospital_name">Hospital Name</string>
+    <string name="location">Location</string>
+    <string name="home">Home</string>
+    <string name="services">Services</string>
+
+
+</resources>
