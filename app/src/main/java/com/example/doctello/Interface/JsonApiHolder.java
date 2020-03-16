@@ -11,6 +11,8 @@ import com.example.doctello.models.loginData;
 import com.example.doctello.models.signUpData;
 import com.example.doctello.models.verifyOtpData;
 import java.util.List;
+
+import io.reactivex.rxjava3.core.Single;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -35,7 +37,7 @@ public interface JsonApiHolder {
     Call<String> login(@Body loginData data);
 
     @GET("User/HomeServices")
-    Call<List<CategoryData>> getCategories(@Query("token") String tokenValue);
+    Single<List<CategoryData>> getCategories(@Query("token") String tokenValue);
 
     @GET("User/HospitalList/Location/{Location}")
     Call<List<HospitalData>> getHospitals(@Path("Location") String id, @Query("token") String token);
